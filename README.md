@@ -1,24 +1,21 @@
-# README
+# PROJET THP Semaine 4 jour 4 : ActiveRecord
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Objet du projet 
+Créer les models de plusieurs applications.
 
-Things you may want to cover:
+### Pour lancer l'application
 
-* Ruby version
+dans le dossier par défaut, exécuter :
+$ bundle install
 
-* System dependencies
+ensuite :
 
-* Configuration
+$ rails db:migrate
 
-* Database creation
+ensuite :
 
-* Database initialization
+$ rails db:seed
 
-* How to run the test suite
+et enfin : 
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+$ rails c
